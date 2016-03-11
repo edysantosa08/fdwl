@@ -9,6 +9,9 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.infodieng.app"
+        },
+        "cordova-plugin-nativeclicksound": {
+            "PACKAGE_NAME": "com.infodieng.app"
         }
     },
     "dependent_plugins": {}

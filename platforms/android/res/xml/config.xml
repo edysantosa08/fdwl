@@ -5,6 +5,10 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
+    <feature name="NativeClick">
+        <param name="android-package" value="com.matimenich.plugins.nativeclick.NativeClick" />
+        <param name="onload" value="true" />
+    </feature>
     <allow-intent href="market:*" />
     <name>Dieng on App</name>
     <description>Dari Dieng Dengan Cinta.</description>

@@ -6,5 +6,13 @@
         },
         "is_top_level": true,
         "variables": {}
+    },
+    "cordova-plugin-nativeclicksound": {
+        "source": {
+            "type": "local",
+            "path": "plugin-add\\soundclick"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }
