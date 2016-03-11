@@ -79,5 +79,5 @@
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
-    <plugin name="cordova-plugin-nativeclicksound" spec="soundclick" />
+    <plugin name="cordova-plugin-nativeclicksound" spec="https://github.com/MatiMenich/cordova-plugin-nativeClickSound" />
 </widget>
