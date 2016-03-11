@@ -34,6 +34,10 @@ function exitFromApp()
              {
                 navigator.app.exitApp();
  }
+ 
+var clickyClasses = ['sound-click', 'button'];
+
+nativeclick.watch(clickyClasses);
 
        $(document).one("mobileinit", function () {
 
