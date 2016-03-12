@@ -5,10 +5,6 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <icon gap:platform="ios" height="57" src="www/res/icon/ios/icon-57.png" width="57" />
-    <icon gap:platform="ios" height="72" src="www/res/icon/ios/icon-72.png" width="72" />
-    <icon gap:platform="ios" height="114" src="www/res/icon/ios/icon-57-2x.png" width="114" />
-    <icon gap:platform="ios" height="144" src="www/res/icon/ios/icon-72-2x.png" width="144" />
     <feature name="NativeClick">
         <param name="android-package" value="com.matimenich.plugins.nativeclick.NativeClick" />
         <param name="onload" value="true" />
@@ -18,7 +14,7 @@
     <description>Dari Dieng Dengan Cinta.</description>
     <author email="dddc@gmail.com" href="http://daridiengdengancinta.com">Dieng On app</author>
     <content src="index.html" />
-    <preference name="phonegap-version" value="cli-5.1.1" />
+    <preference name="phonegap-version" value="2.9.0" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
@@ -48,6 +44,7 @@
     <gap:plugin name="org.apache.cordova.geolocation" />
     <gap:plugin name="org.apache.cordova.globalization" />
     <gap:plugin name="org.apache.cordova.inappbrowser" />
+    <gap:plugin name="org.apache.cordova.core.Device" />
     <gap:plugin name="org.apache.cordova.media" />
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />

@@ -71,6 +71,9 @@ $.ajax({
     },error: function() { }
 });
  }
+ 
+var clickyClasses = ['sound-click', 'button'];
+nativeclick.watch(clickyClasses);
 
 $(function() {
 setTimeout(hideSplash, 6000);
@@ -78,6 +81,8 @@ setTimeout(hideSplash, 6000);
 function hideSplash() {
 $.mobile.changePage("#page1", "fade");
 }
+
+
 
 $(document).one('pagebeforecreate', function () {
 var panel ="";
