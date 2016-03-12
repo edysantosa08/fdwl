@@ -72,8 +72,15 @@ $.ajax({
 });
  }
  
-var clickyClasses = ['sound-click', 'button'];
-nativeclick.watch(clickyClasses);
+$(function() {
+    $(document).on("click", ".sound-click", function() {
+        cordova.exec(function () { },
+                    function () { },
+                    "SoundEffects",
+                    "click",
+                    []);
+    });
+});
 
 $(function() {
 setTimeout(hideSplash, 6000);
