@@ -7,10 +7,10 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-nativeclicksound": {
+    "cordova-plugin-velda-devicefeedback": {
         "source": {
             "type": "local",
-            "path": "nativeclicksound"
+            "path": "device-feedback-master"
         },
         "is_top_level": true,
         "variables": {}

@@ -74,11 +74,7 @@ $.ajax({
  
 $(function() {
     $(document).on("click", ".sound-click", function() {
-        cordova.exec(function () { },
-                    function () { },
-                    "SoundEffects",
-                    "click",
-                    []);
+window.plugins.deviceFeedback.acoustic();
     });
 });
 

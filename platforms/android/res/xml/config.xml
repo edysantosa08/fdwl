@@ -5,8 +5,9 @@
         <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="NativeClick">
-        <param name="android-package" value="com.matimenich.plugins.nativeclick.NativeClick" />
+    <preference name="phonegap-version" value="2.9.0" />
+    <feature name="DeviceFeedback">
+        <param name="android-package" value="cz.Velda.cordova.plugin.devicefeedback.DeviceFeedback" />
         <param name="onload" value="true" />
     </feature>
     <allow-intent href="market:*" />
@@ -14,7 +15,7 @@
     <description>Dari Dieng Dengan Cinta.</description>
     <author email="dddc@gmail.com" href="http://daridiengdengancinta.com">Dieng On app</author>
     <content src="index.html" />
-    <preference name="phonegap-version" value="2.9.0" />
+    <preference name="phonegap-version" value="cli-5.1.1" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />

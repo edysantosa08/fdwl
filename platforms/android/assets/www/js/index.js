@@ -71,6 +71,12 @@ $.ajax({
     },error: function() { }
 });
  }
+ 
+$(function() {
+    $(document).on("click", ".sound-click", function() {
+window.plugins.deviceFeedback.acoustic();
+    });
+});
 
 $(function() {
 setTimeout(hideSplash, 6000);
@@ -78,6 +84,8 @@ setTimeout(hideSplash, 6000);
 function hideSplash() {
 $.mobile.changePage("#page1", "fade");
 }
+
+
 
 $(document).one('pagebeforecreate', function () {
 var panel ="";

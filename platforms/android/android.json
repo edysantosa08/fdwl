@@ -13,7 +13,7 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"NativeClick\"><param name=\"android-package\" value=\"com.matimenich.plugins.nativeclick.NativeClick\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "xml": "<feature name=\"DeviceFeedback\"><param name=\"android-package\" value=\"cz.Velda.cordova.plugin.devicefeedback.DeviceFeedback\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -25,7 +25,7 @@
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.infodieng.app"
         },
-        "cordova-plugin-nativeclicksound": {
+        "cordova-plugin-velda-devicefeedback": {
             "PACKAGE_NAME": "com.infodieng.app"
         }
     },
@@ -37,15 +37,15 @@
             "runs": true
         },
         {
-            "file": "plugins/cordova-plugin-nativeclicksound/www/nativeclick.js",
-            "id": "cordova-plugin-nativeclicksound.nativeclick",
+            "file": "plugins/cordova-plugin-velda-devicefeedback/DeviceFeedback.js",
+            "id": "cordova-plugin-velda-devicefeedback.DeviceFeedback",
             "clobbers": [
-                "nativeclick"
+                "window.plugins.deviceFeedback"
             ]
         }
     ],
     "plugin_metadata": {
         "cordova-plugin-whitelist": "1.2.1",
-        "cordova-plugin-nativeclicksound": "0.0.3"
+        "cordova-plugin-velda-devicefeedback": "0.0.2"
     }
 }

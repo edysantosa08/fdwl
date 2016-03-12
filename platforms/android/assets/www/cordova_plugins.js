@@ -6,10 +6,10 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/cordova-plugin-nativeclicksound/www/nativeclick.js",
-        "id": "cordova-plugin-nativeclicksound.nativeclick",
+        "file": "plugins/cordova-plugin-velda-devicefeedback/DeviceFeedback.js",
+        "id": "cordova-plugin-velda-devicefeedback.DeviceFeedback",
         "clobbers": [
-            "nativeclick"
+            "window.plugins.deviceFeedback"
         ]
     }
 ];
@@ -17,7 +17,7 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "cordova-plugin-whitelist": "1.2.1",
-    "cordova-plugin-nativeclicksound": "0.0.3"
+    "cordova-plugin-velda-devicefeedback": "0.0.2"
 };
 // BOTTOM OF METADATA
 });
