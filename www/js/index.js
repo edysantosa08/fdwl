@@ -72,11 +72,6 @@ $.ajax({
 });
  }
  
-$(function() {
-    $(document).on("click", ".sound-click", function() {
-window.plugins.deviceFeedback.acoustic();
-    });
-});
 
 $(function() {
 setTimeout(hideSplash, 6000);
